@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Resume</title>
+    <link rel = "icon" type = "image" href = "" >
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100&family=Marmelad&display=swap"
+        rel="stylesheet">
+    <style>
+
+        body {
+            margin-top: 0;
+            padding-top: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+            margin-left: 10vw;
+            margin-right: 10vw;
+
+            background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            opacity: 0.9;
+        }
+
+        .main {
+            width: 80vw;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-items: center;
+            background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+            background-repeat: no-repeat;
+            background-size: 80vw 100%;
+            opacity: 0.9;
+            /* column-gap: 10px; */
+
+            overflow:visible;
+        }
+
+        .first {
+            width: auto;
+            height: auto;
+
+            background-color: red;
+            color: black;
+            background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            opacity: 0.9;
+            justify-content: center;
+            justify-self: center;
+            justify-items: center;
+        }
+
+        .second {
+            width: auto;
+            height: auto;
+            background-color: bisque;
+            color: black;
+
+            background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            opacity: 0.9;
+
+            justify-content: center;
+            justify-self: center;
+            justify-items: center;
+        }
+
+        .line{
+            width: 80vw;
+            background-color: rgb(228, 225, 242);
+            height: 50px;
+        }
+        .profile {
+            padding-left: 40px;
+            padding-right: 40px;
+            width: auto;
+            height: 90vh;
+            background-color: rgb(228, 225, 242);
+        }
+
+        img {
+            border-radius: 50%;
+            /* width: 10vw;   */
+        }
+
+
+        #english {
+            height: 5px;
+            width: 40%;
+            background-color: black;
+            margin-left: 65px;
+            position: relative;
+            bottom: 25px;
+        }
+
+        #color1 {
+            width: 50%;
+            height: 5px;
+            margin-left: 70%;
+            background-color: aliceblue;
+        }
+
+        #hindi {
+            height: 5px;
+            width: 40%;
+            background-color: black;
+            margin-left: 65px;
+            position: relative;
+            bottom: 25px;
+        }
+
+        #color2 {
+            width: 30%;
+            height: 5px;
+            margin-left: 90%;
+            background-color: aliceblue;
+        }
+
+        #gujarati {
+            height: 5px;
+            width: 45%;
+            background-color: black;
+            margin-left: 65px;
+            position: relative;
+            bottom: 25px;
+
+        }
+
+        #color3 {
+            width: 5%;
+            height: 5px;
+            margin-left: 100%;
+            background-color: aliceblue;
+        }
+
+        .html {
+            width: 29%;
+            height: 5px;
+            margin-left: 50px;
+            background-color: black;
+            position: relative;
+            bottom: 25px;
+        }
+
+        #color4 {
+            width: 10%;
+            height: 5px;
+            margin-left: 90%;
+            background-color: aliceblue;
+        }
+
+        .css {
+
+            width: 29%;
+            height: 5px;
+            margin-left: 50px;
+            background-color: black;
+            position: relative;
+            bottom: 25px;
+        }
+
+        #color5 {
+            width: 10%;
+            height: 5px;
+            margin-left: 90%;
+            background-color: aliceblue;
+        }
+
+        .java {
+            width: 20%;
+            height: 5px;
+            margin-left: 50px;
+            background-color: black;
+            position: relative;
+            bottom: 25px;
+        }
+
+        #color6 {
+            width: 55%;
+            height: 5px;
+            margin-left: 90%;
+            background-color: aliceblue;
+        }
+
+        /* //////////////////////////////////////////////////// */
+        .first {
+            /* width: 400px; */
+            margin-top: 30vh;
+            /*final*/
+            width:auto;
+            padding: auto;
+            /* margin: auto; */
+        }
+
+       
+
+        img {
+
+            width: 250px;
+            margin-left: 1vw;
+            position: relative;
+            bottom: 15vh;
+            border: 20px solid rgb(228, 225, 242);
+            /* E4E1F2 */
+            /* padding: 1px; */
+        }
+
+        #name {
+            position: relative;
+            bottom: 200px;
+            text-align: center;
+            font-size: 15vh;
+            font-family: 'Marmelad', sans-serif;
+        }
+
+        #web {
+            text-align: center;
+            position: relative;
+            bottom: 200px;
+            overflow: hidden;
+        }
+
+        .address {
+            margin-left: 30px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .languages {
+            margin-left: 30px;
+        }
+
+
+        .second {
+            width: 50%;
+            padding-left: 5px;
+            padding-right: 100px;
+            overflow: hidden;
+        }
+
+        .aboutme {
+            /* width: 100%; */
+            padding-left: 5vw;
+            /* padding-right: 40px; */
+            margin-top: 120px;
+            /* padding-left: ; */ 
+        }
+        /* .dot1{
+            
+            border: 2px solid black;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            float: left;
+            position: relative;
+            right: 40px;
+            bottom: 60px;
+            padding: 25px;
+            
+        } */
+        .first1{
+            overflow: hidden;
+        }
+        .dot2{
+            border: 2px solid black;
+            height: 70px;
+            width: 70px;
+            
+            border-radius: 50%;
+           
+            float: right;
+            position: relative;
+            bottom: 100px;
+            left: 60px;
+            overflow:hidden;
+            padding: 25px;
+            
+            
+        }
+        .dot21{
+            height: 70px;
+            width: 70px;
+            background-color: black;
+            border-radius: 50%;
+            /* display: inline-block; */
+            /* transform: rotate(45deg); */
+            /* float: right; */
+            /* position: relative;
+            bottom: 20px;
+            left: 20px;  */
+            overflow:hidden;
+        }
+        .dot3 {
+            height: 200px;
+            width: 200px;
+            background-color: rgb(228, 225, 242);
+            border-radius: 50%;
+            /* display: inline-block; */
+            /* transform: rotate(45deg); */
+            float: right;
+            position: relative;
+            bottom: 200px;
+            left: 185px;
+        }
+
+        .education{
+             /* width: 100%; */
+             padding-left: 5vw;
+            /* padding-right: 40px; */
+            margin-top: 100px;
+            /* padding-left: ; */
+        }
+        .skills{
+             /* width: 100%; */
+             padding-left: 5vw;
+            /* padding-right: 40px; */
+            margin-top: 100px;
+            /* padding-left: ; */
+        }
+
+        /* about decoration */
+        #about1{
+            width: 50vw;
+            height: auto;
+            display:inline-block
+        }
+        #aboutbg{
+            background-color: rgb(228, 225, 242);
+            width: 200px;
+            height: 25px;
+           
+        }
+        #About{
+            font-family: 'Marmelad', sans-serif;
+            position: relative;
+            bottom: 40px;
+        }
+        #about2{
+            position: relative;
+            bottom: 50px;
+        }
+       /* educaton decoration */
+       #education1{
+            width: 50vw;
+            height: auto;
+            display:inline-block;
+       }
+       #educationbg{
+        background-color: rgb(228, 225, 242);
+            width: 170px;
+            height: 25px;
+       }
+       #Education{
+           font-family: 'Marmelad', sans-serif;
+            position: relative;
+            bottom: 40px;
+       }
+       #education2{
+            position: relative;
+            bottom: 50px;
+       }
+       /* all education */
+       .education{
+        position: relative;
+        bottom: 10px;
+       }
+
+       /* skill decoration */
+       #skills1{
+            width: 50vw;
+            height: auto;
+            display:inline-block;
+       }
+       #skillbg{
+        background-color: rgb(228, 225, 242);
+            width: 100px;
+            height: 25px;
+       }
+       #Skills{
+            font-family: 'Marmelad', sans-serif;
+            position: relative;
+            bottom: 73px;
+       }
+       #skills2{
+            position: relative;
+            bottom: 100px;
+       }
+       /* all skills */
+       .skills{
+        position: relative;
+        bottom: 45px;
+       }
+
+       /* language decoration */
+       #language1{
+            width: auto;
+            height: auto;
+            display:inline-block;
+       }
+       #languagebg{   
+            background-color: rgb(228, 225, 242);
+            width: 160px;
+            height: 25px;
+       }
+       #Language{
+            font-family: 'Marmelad', sans-serif;
+            position: relative;
+            bottom: 65px;
+       }
+       #language2{
+        position: relative;
+            bottom: 50px;
+       }
+       /* all languages */
+       .languages{
+        position: relative;
+        top: 50px;
+       }
+       .address{
+        position: relative;
+        top: 30px;
+       }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="dot1"></div>
+        <div class="first">
+            
+            <div class="profile">
+                
+                <div class="img"><img src="image_1644820972.625.jpg" alt="user image"></div>
+
+                <p id="name">
+                    Dhruv <br>
+                    Patel
+                </p>
+                <h1 id="web">Web Designer</h1>
+
+            </div>
+        <div class="first1">
+            <div class="address">
+                
+                <div class="dot2"> <div class="dot21"></div></div>
+                <a href="https://www.google.com/maps/@23.234298,73.7705229,702m/data=!3m1!1e3!5m1!1e4" target="_blank">
+                    <pre><i class="material-icons">&#xe0c8;</i>  At,Po-Kajli, kadana, Gujarat </pre>
+                </a>
+                <pre><i class="material-icons">&#xe0cd;</i>  +91 8320499968</pre>
+                <pre><i class="material-icons">&#xe0be;</i>  dsp99968@gmail.com</pre>
+                <a href="https://www.google.co.in/" target="_blank"> <pre><i class="material-icons">&#8599;</i>   www.google.com</pre></a>
+
+            </div>
+            <div class="languages">
+                <p id="language1">
+                <div id="languagebg"></div>
+                <h1 id="Language">Language</h1>
+                </p>
+                <div id="language2">
+                <p>English
+                <div id="english">
+                    <div id="color1"></div>
+                </div>
+                </p>
+                <p>Hindi
+                <div id="hindi">
+                    <div id="color2"></div>
+                </div>
+                </p>
+                <p>Gujarati
+                <div id="gujarati">
+                    <div id="color3"></div>
+                </div>
+                </p>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="second">
+            
+            <div class="aboutme">
+                <div class="dot3"></div>
+                <h1 id="about1">
+                    <div id="aboutbg"></div>
+                    <div id="About">ABOUT ME</div>
+                </h1>
+                <p id="about2">Motivated with 8 years of Area of <br>
+                    expertise. Recognized for assessing <br>
+                    operational needs and developing <br>
+                    solutions to save costs,improve revenues, <br>
+                    and drive customersatisfaction. <br>
+                    resourceful abd well-organized with <br>
+                    excellent leadership and team building <br>
+                    record. Customer-oriented with <br>
+                    strong history of leading <br>
+                    hight-performance teams to meet or <br>
+                    exceed objectives. Dedicated and <br>
+                    hardworking with internal drive to deliver
+                </p>
+
+            </div>
+            <div class="education">
+                <h1 id="education1">
+                    <div id="educationbg"></div>
+                    <div id="Education">Education</div>
+                </h1>
+                <div id="education2">
+                <p>Bachelor Degree (2020-2024)</p>
+                <p>Computer Science Engineering ,</p>
+                <p>Parul Institute Of Technology , <a href="https://paruluniversity.ac.in/" target="_blank">Parul University Baroda</a></p>
+                <p>Master (20__-20__)</p>
+                <p>No Data</p>
+                </div>
+            </div>
+
+            <div class="skills">
+                <h1 id="skills1">
+                    <div id="skillbg"></div>
+                    <p id="Skills">Skills</p>
+                </h1>
+                <div id="skills2">
+                <p>HTML
+                <div class="html">
+                    <div id="color4"></div>
+                </div>
+                </p>
+                <p>CSS
+                <div class="css">
+                    <div id="color5"></div>
+                </div>
+                </p>
+                <p>JAVA
+                <div class="java">
+                    <div id="color6"></div>
+                </div>
+                </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="line"></div>
+    </div>
+</body>
+</html>

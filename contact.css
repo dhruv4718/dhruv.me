@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    width: 100vw;
+    height: 50vh;
+    background-color:rgb(228, 228,228);
+}
+.second{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(222,165,197);
+}
+#text , #email , #textarea{
+    width: 30vw;
+    
+    margin-left: 10vw;
+    margin-top: 4vh;
+}
+
+#submit{
+    margin-left: 10vw;
+    margin-top: 4vh;
+}
+.thrid{
+    background-color: rgb(255,255,255);
+    width: 30vw;
+    height: 45vh;
+    /* display: inline-block; */
+    position: relative;
+    float: right;
+    bottom: 20vh;
+    margin-right:5vw;
+    margin-left:5vw ;
+    padding-top: 5vh;
+   
+    text-align: center;
+}
+.fourth{
+    margin-left: 10vw;
+    padding-top: 4vh;
+    color: aliceblue;
+}
+#P1{
+    font-size:xx-large;
+}
+#P2{
+    font-size: x-large;
+}

@@ -1,0 +1,72 @@
+.main{
+
+   /* background-image: url(pexels-irina-iriser-1379636.jpg); */
+   background-image: url(https://images.pexels.com/photos/1379636/pexels-photo-1379636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-repeat: no-repeat;
+   background-size: cover;
+  height: 100vh;
+}
+#second{
+    margin-top:50px;
+}
+#a1,#a2,#a3{
+    width: 100vw;
+    height: 5vh;
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+  
+}
+
+article{
+    color:aliceblue;
+   
+    overflow: hidden;
+}
+#h2{ 
+    
+    width: 0px;
+    text-align: center;
+
+    overflow: hidden;
+    animation: name;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    /* animation-timing-function: 1; */
+    animation-fill-mode: forwards;
+    
+}
+#h3{
+    width: 0px;
+    text-align: center;
+
+    overflow: hidden;
+    animation: name;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    /* animation-timing-function: 1; COMMANT */
+    animation-fill-mode: forwards;
+} 
+
+#h4{
+    width: 0px;
+    height: 30px;
+    text-align: center;
+
+    overflow: hidden;
+    animation: name;
+    animation-duration: 8s;
+    animation-delay: 4s;
+    /* animation-timing-function: 1; commant */
+    animation-fill-mode: forwards;
+}
+
+@keyframes name {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 1000px;
+    }
+    
+}

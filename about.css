@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    height: auto;
+    background-image: url(https://images.wallpaperscraft.com/image/single/echeveria_succulent_pot_120694_3840x2400.jpg);
+   background-size:100% ;
+    background-repeat: no-repeat;
+    background-image:scroll;
+    
+}
+h1{
+    color: white;
+    font-size:xx-large;
+    clear: both;
+    margin-left: 30px;
+}
+
+#p1{
+    float: right;
+   font-size:xx-large;
+    color: white;
+    clear: both;
+    margin: 40px;
+    margin-right: 50px;
+}
+#p2{
+    float: right;
+    font-size:xx-large;
+    color: white;
+    clear: both;
+    margin: 40px 0;
+    margin-right: 50px;
+}
+#p3{
+    float: right;
+    font-size:xx-large;
+    color: white;
+    clear: both;
+    margin-right: 50px;
+}
+p{
+    color: rgb(222,165,197);
+    padding-top: 25px;
+}

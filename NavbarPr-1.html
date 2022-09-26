@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            /* background-color: #333; */
+            background-color: black;
+        }
+
+        /* for all li */
+        li {
+            /* display: inline-block; */
+            float: left;
+            padding: 20px 0;
+        }
+
+        /* for all links decoration */
+        a {
+            /*for margin-padding*/
+            display: block;
+            
+            color: white;
+            /* text-align: center; */
+            padding: 15px 5vw;
+            background-color: black;
+            /* for under line */
+            text-decoration: none;
+            
+
+            /* background-color: #04AA6D; */
+        }
+
+        #Home {
+            background-color: #04AA6D;
+        }
+
+        /* for the last two li */
+        #button,
+        #search {
+            
+            border-radius: 5px;
+            padding: 15px 5vw;
+            float: right;
+        }
+        #searchbar{
+            display: inline-block;
+            /* float: left; */
+            margin-left: 15vw;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" id="Home">Home</a></li>
+            <li><a href="#">Data</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <label for="searchbar" id="searchbar">
+            <li style="float:right"><button id="button" type="submit">Search</button></li>
+            <li style="float:right"><input id="search" type="search" placeholder="Search" aria-label="Search"></li>
+        </label>
+        </ul>
+    </nav>
+
+
+</body>
+
+</html>
