@@ -11,7 +11,7 @@
 }
 .second{
     width: 100vw;
-    height: 50vh;
+    height: 400px;
     background-color: rgb(222,165,197);
 }
 #text , #email , #textarea{
