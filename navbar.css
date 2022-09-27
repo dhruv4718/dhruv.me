@@ -5,6 +5,7 @@
 
         
         .navbar{
+                position: static;
             background: transparent;
             /* background-color: aliceblue; */
             width: 100vw;
