@@ -19,6 +19,9 @@
     margin-left: 10vw;
     margin-top: 4vh;
 }
+#text , #email , #textarea , #submit{
+    position: static;
+}
 
 #submit{
     margin-left: 10vw;
