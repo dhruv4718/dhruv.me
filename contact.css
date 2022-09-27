@@ -4,6 +4,7 @@
 }
 
 .first{
+    position: relative;
     width: 100vw;
     height: 50vh;
     background-color:rgb(228, 228,228);
@@ -19,9 +20,7 @@
     margin-left: 10vw;
     margin-top: 4vh;
 }
-#text , #email , #textarea , #submit{
-    position: static;
-}
+
 
 #submit{
     margin-left: 10vw;
