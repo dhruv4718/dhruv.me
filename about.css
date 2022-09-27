@@ -36,12 +36,13 @@ h1{
 }
 #p3{
     float: right;
+    font-weight: bold;
     font-size:xx-large;
-    color: white;
+    color: rgb(222, 2, 127);
     clear: both;
     margin-right: 50px;
 }
 p{
-    color: rgb(222,165,197);
+    color: rgb(249, 158, 210);
     padding-top: 25px;
 }
