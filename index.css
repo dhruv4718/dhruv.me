@@ -73,6 +73,7 @@ article{
 
 
 #video{
-    width: 100vw;
+    width: 80vw;
     height: 50vh;
+   margin-left: 10vw;
 }
