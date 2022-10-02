@@ -1,10 +1,12 @@
+
 .main{
 
    /* background-image: url(pexels-irina-iriser-1379636.jpg); */
    background-image: url(https://images.pexels.com/photos/1379636/pexels-photo-1379636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
    background-repeat: no-repeat;
    background-size: cover;
-  height: 100vh;
+   height: 100vh;
+   
 }
 #second{
     margin-top:50px;
@@ -72,8 +74,34 @@ article{
 }
 
 
+/* video */
 #video{
     width: 70vw;
     height: 50vh;
    margin-left: 15vw;
+}
+
+/* memory */
+.Memories{
+    border-radius: 10px;
+    width:350px;
+    height: auto;
+    margin-left: 5vw;
+    background-color: aliceblue;
+}
+.p{
+    width: auto;
+    height: auto;
+   position: relative;
+   top: 60px;
+   left: 10px;
+}
+.Memories img{
+    display: inline-block;    
+    width: 190px;
+    padding: 10px;
+}
+.img{
+    display: flex;
+    justify-content: center;
 }
