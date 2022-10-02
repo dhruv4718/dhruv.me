@@ -97,7 +97,7 @@ article{
    left: 10px;
 }
 .Memories img{
-    display: inline-block;    
+    /* display: inline-block;     */
     width: 190px;
     padding: 10px;
 }
