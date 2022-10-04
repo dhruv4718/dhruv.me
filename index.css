@@ -85,7 +85,7 @@ article{
 .Memories{
     border-radius: 10px;
     width:350px;
-    /* height: auto; */
+
     margin-left: 5vw;
     background-color: aliceblue;
 }
@@ -97,7 +97,6 @@ article{
    left: 10px;
 }
 .Memories img{
-    /* display: inline-block;     */
     width: 190px;
     padding: 10px;
 }
