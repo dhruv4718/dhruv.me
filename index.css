@@ -101,6 +101,6 @@ article{
     padding: 10px;
 }
 .img{
-    display: flex;
+     height: auto;
     justify-content: center;
 }
