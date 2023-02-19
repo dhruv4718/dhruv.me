@@ -101,7 +101,11 @@ article{
     padding: 10px;
 }
 .img{
+<<<<<<< HEAD
     height: auto;
 
+=======
+     height: auto;
+>>>>>>> 7715ff23a4a821327eed5f0efa468ec13b55981e
     justify-content: center;
 }
