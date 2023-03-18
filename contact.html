@@ -53,14 +53,72 @@
        
     </nav>
     <div class="first">
-    <input id="text" type="text" placeholder="Enter Your Name">
+        <form id="sheetdb-form" action="https://sheetdb.io/api/v1/2o3v8sppkc36p" method="post">
+    <input id="text" name="data[name]" type="text" placeholder="Enter Your Name">
     <br>
-    <input id="email" type="emali" placeholder="Enter your valid email ">
+    <input id="email" name="data[email]" type="emali" placeholder="Enter your valid email ">
     <br>
-    <textarea name=""  cols="30" rows="10" id="textarea" placeholder="Enter Your Message"></textarea>
+    <textarea name="data[message]" cols="30" rows="10" id="textarea" placeholder="Enter Your Message"></textarea>
     <br>
-    <button id="submit" type="submit">Submit</button>
+    <button id="submit" name="submit" hidden type="submit">Submit</button>
+    </form>
     </div>
+
+      <!-- script for the database -->
+      <script>
+        const emailInput = document.getElementById("email");
+       
+        const submitButton = document.getElementById("submit");
+
+        // Listen for the input event on all three input fields
+        emailInput.addEventListener("input", enableButton);
+
+        // Function to enable the submit button if all input fields are valid
+        function enableButton() {
+            // Validate the email, password, and phone number
+            const email = emailInput.value;
+
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            const isValidEmail = emailRegex.test(email);
+
+            if (isValidEmail) {
+               // submitButton.disabled = false;
+
+               submitButton.hidden= false;
+                console.log("submit button enable");
+                // document.getElementById("validation").innerHTML = "submit";
+
+                var form = document.getElementById('sheetdb-form');
+                form.addEventListener("submit", e => {
+                    e.preventDefault();
+                    fetch(form.action, {
+                        method: "POST",
+                        body: new FormData(document.getElementById("sheetdb-form")),
+                    }).then(
+                        response => response.json()
+                    ).then((html) => {
+                        //the link is open the next page after submit the userdata
+                        // you can put any JS code here 
+                        //  window.open('hello.html', '_blank');
+
+                        //show the message dilogbox the message was submited
+                        const message = 'Your form has been submitted successfully.';
+                        alert(message);
+                    });
+                });
+
+
+            }
+            else {
+               // submitButton.disabled = true;
+               submitButton.hidden = true;
+                console.log("invalid all input");
+                // document.getElementById("validation").innerHTML = "all input fields are invalid";
+
+            }
+        }
+    </script>
     <div class="second">
         <div class="thrid">
             <b>CALL US</b>
