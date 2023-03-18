@@ -3,23 +3,33 @@
     padding: 0;
 }
 
+body{
+    /* overflow-y: hidden; Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 .first{
-   
-    width: 100vw;
-    height: 400px;
+    
+    /* width: 100vw; */
+    /* height: 50vh; */
+    height: fit-content;
+    padding-bottom: 10px;
+    /* height: auto; */
     background-color:rgb(228, 228,228);
 }
 .second{
     width: 100vw;
+    /* height: 50vh; */
     height: 400px;
     background-color: rgb(222,165,197);
 }
 #text , #email , #textarea{
+    border-radius: 10px;
     width: 35vw;
-    
+    padding: 10px;
     margin-left: 10vw;
     margin-top: 4vh;
 }
+
 
 
 #submit{
@@ -27,7 +37,8 @@
     margin-top: 4vh;
 }
 .thrid{
-   background-color: rgb(255,255,255);
+    border-radius: 10px;
+    background-color: rgb(255,255,255);
     width: 30vw;
     height: auto;
     /* display: inline-block; */
@@ -36,19 +47,22 @@
     bottom: 20vh;
     margin-right:5vw;
     margin-left:5vw ;
-    padding-top: 5vh;
-    padding: 10px;
+    padding: 22px;
    
     text-align: center;
 }
 .fourth{
-    margin-left: 10vw;
-    padding-top: 4vh;
+    
+    height: fit-content;
     color: aliceblue;
 }
 #P1{
+     margin-left: 10vw;
+    padding-top: 4vh;
     font-size:xx-large;
 }
 #P2{
+     margin-left: 10vw;
+    padding-top: 4vh;
     font-size: x-large;
 }
