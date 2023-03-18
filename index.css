@@ -85,16 +85,17 @@ article{
 .Memories{
     border-radius: 10px;
     width:fit-content;
-
+    margin-right: 5vw;
     margin-left: 5vw;
     background-color: aliceblue;
 }
 .p{
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
     position: relative;
     top: 60px;
     left: 10px;
+    right: 10px;
 }
 .Memories img{
     border-radius: 20px;
