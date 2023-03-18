@@ -52,8 +52,8 @@
         </ul>
        
     </nav>
-    <div class="first">
-        <form id="sheetdb-form" action="https://sheetdb.io/api/v1/2o3v8sppkc36p" method="post">
+      <div class="first">
+    <form name="sheetdbform" id="sheetdb-form"  autocomplete="off" action="https://sheetdb.io/api/v1/2o3v8sppkc36p" method="post">
     <input id="text" name="data[name]" type="text" placeholder="Enter Your Name">
     <br>
     <input id="email" name="data[email]" type="emali" placeholder="Enter your valid email ">
@@ -98,6 +98,7 @@
                     }).then(
                         response => response.json()
                     ).then((html) => {
+                        document.sheetdbform.reset();
                         //the link is open the next page after submit the userdata
                         // you can put any JS code here 
                         //  window.open('hello.html', '_blank');
@@ -105,6 +106,7 @@
                         //show the message dilogbox the message was submited
                         const message = 'Your form has been submitted successfully.';
                         alert(message);
+                       
                     });
                 });
 
@@ -112,8 +114,9 @@
             }
             else {
                // submitButton.disabled = true;
-               submitButton.hidden = true;
+                submitButton.hidden = true;
                 console.log("invalid all input");
+               
                 // document.getElementById("validation").innerHTML = "all input fields are invalid";
 
             }
