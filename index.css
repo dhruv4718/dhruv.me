@@ -106,10 +106,10 @@ article{
 .Memories img{
 
     border-radius: 20px;
-    /* width: 190px; */
+    width: 190px;
     padding: 10px;
 }
 .img{
-
+    height: auto;
     justify-content: center;
 }
