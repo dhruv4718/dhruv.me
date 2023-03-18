@@ -3,29 +3,28 @@
             padding: 0;
         }
 
+        body {
+            /* overflow-y: hidden; Hide vertical scrollbar */
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+          }
+        /* html { overflow-y: hidden; } */
         
         .navbar{
-                position: static;
+            position: static;
             background: transparent;
             /* background-color: aliceblue; */
-            width: 100vw;
-            
-               height: 85px;
-          
-           
+            width:auto;
+            height: 70px;
         }
       
         .navbar:hover{
-            background-color: aliceblue;
-            
-            
+            background-color: aliceblue;   
         }
         
  
         li{
             list-style-type: none;
             float: left;
-            
             /* background-color: aqua; */
             overflow: hidden;
         }
@@ -151,8 +150,8 @@ li:hover ul{
     display: block;
 }
 
-#pr-1,#pr-2,#pr-3{
-    color:#00bfff; 
+#pr-1 #pr-2 #pr-3 :hover{
+    color:blueviolet; 
     
     
 }
